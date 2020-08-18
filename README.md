@@ -9,7 +9,7 @@ purpose: To autofill the webform with a python program.
 Design: looked for ways to manipulate on the webpage,  found selenium package(this is a package used for testing web apps by mimicking human interaction with it). The basic idea is that the package use webdriver(not totally understand, seems like a port that browsers have for developers) as a handle for us to do things on the page, like input, click (that was the only two I used). 
 
 
-here is how it works: /n
+here is how it works: \n
 	1. download webdriver of your browser. /n
 	2. Create a webdriver object specifically for a certain browser.
  that opens up a target webpage, 
