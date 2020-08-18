@@ -9,11 +9,10 @@ purpose: To autofill the webform with a python program.
 Design: looked for ways to manipulate on the webpage,  found selenium package(this is a package used for testing web apps by mimicking human interaction with it). The basic idea is that the package use webdriver(not totally understand, seems like a port that browsers have for developers) as a handle for us to do things on the page, like input, click (that was the only two I used). 
 
 
-here is how it works: \n
-	1. download webdriver of your browser. /n
-	2. Create a webdriver object specifically for a certain browser.
- that opens up a target webpage, 
-	3. use the developer tool on the browser to find the xpath of the html object you want to manipulate.
-	4. find the object with certain xpath 
-	5. do click or input on the object
-	6. after you finish, you can use a .quit() to shut down the webdiver.
+here is how it works:   
+  1. download webdriver of your browser.   
+  2. Create a webdriver object specifically for a certain browser.that opens up a target webpage.   
+  3. use the developer tool on the browser to find the xpath of the html object you want to manipulate.  
+  4. find the object with certain xpath.  
+  5. do click or input on the object.  
+  6. after you finish, you can use a .quit() to shut down the webdiver.
