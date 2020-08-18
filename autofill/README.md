@@ -6,7 +6,7 @@ Background: During the COVID-19 pandemic, our research facility require everyone
 
 purpose: To autofill the webform with a python program. 
 
-Design: looked for ways to manipulate on the webpage,  found selenium package(this is a package used for testing web apps by mimicking human interaction with it). The basic idea is that the package use webdriver(not totally understand, seems like a port that browsers have for developers) as a handle for us to do things on the page, like input, click (that was the only two I used). 
+Design: looked for ways to manipulate on the webpage,  found selenium package(this is a package used for testing web apps by mimicking human interaction with it). The basic idea is that the package use webdriver(not totally understand, seems like a port that browsers have for developers) as a handle for us to do things on the page, like input, click (that was the only two I used). the code is just an example.
 
 
 here is how it works:   
@@ -16,3 +16,7 @@ here is how it works:
   4. find the object with certain xpath.  
   5. do click or input on the object.  
   6. after you finish, you can use a .quit() to shut down the webdiver.
+
+result:  
+I did write the whole peogram out to test on the real webform, but it turned out sometime, the first few filled field will vanish, and I saw ppl had the same problem online, didn't find good solution.   
+a few days later, the webform was shutdown and be replaced by a sign-in required webform(with two-step verification). The whole program was not put into use.
