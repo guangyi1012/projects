@@ -1,5 +1,6 @@
 # projects
-Data science related projects
+### Data science related projects
+
 Background: During the COVID-19 pandemic, our research facility require everyone works in the Hillman Cancer center(HCC) building to fill in a web form created with office form online to track daily activity, and to identify close contact personnel if anyone was infected.
  This form include a lot of repetitive information needed to be fill in, like name, PI name, location, have you been exposed to virus etc. other questions  like date and in/out time. the answers are relatively stable for someone work in the building routinely, so a pre-set computer program could help with this tedious work.
 
